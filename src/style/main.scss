@@ -1,7 +1,56 @@
-@mixin colorBlue () {
-	color: blue;
+@media screen and (max-width:460px) {
+  .btn {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  
+  
 }
 
 body {
-	@include colorBlue ();
+  height: 100%;
+  background-color: #9baec8;
+}
+
+#app {
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  min-height: 100%;
+  width: 80%;
+  text-align: center;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.result {
+  padding: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  position: relative;
+  left: 10%;
+  margin-top: 30px;
+  width: 80%;
+  word-wrap: break-word;
+  background-color: #2b90d9;
+}
+
+.result:nth-last-child(1) {
+  margin-bottom: 30px;
+}
+
+.info {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none !important;
+  color: #d9e1e8;
+}
+a:hover {
+  color: #9baec8;
 }
