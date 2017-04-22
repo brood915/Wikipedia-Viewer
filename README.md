@@ -3,7 +3,8 @@
 ```
 Allows users to search for a certain keyword and returns a list of related wikipedia articles. 
 Also, users can see a random wikipedia article by clicking the button "random".
-Used ReactJS and SCSS.
+
+Used ReactJS, SCSS, and Wikipedia API.
 ```
 
 
