@@ -10,12 +10,22 @@ Used ReactJS, SCSS, and Wikipedia REST API.
 ```
 
 
-### To run this application
+### Quick start
+```bash
+# clone repo
+$ git clone https://github.com/brood915/Wikipedia-Viewer.git
 
-```
-npm install to install all dependencies
-npm run start to start webpack-dev-server
-server running at localhost:1337
+# change directory to the app
+$ cd wikipedia-viewer
+
+# install the dependencies with npm
+$ npm install
+
+# start the server
+$ npm start
+
+# start the app
+$ Go to http://localhost:1337 in your browser.
 ```
 
 Codepen: https://codepen.io/brood915/full/bgoaRL/
