@@ -10,7 +10,7 @@ Used ReactJS, SCSS, and Wikipedia REST API.
 ```
 
 
-### Quick start
+### Quick Start
 ```bash
 # clone repo
 $ git clone https://github.com/brood915/Wikipedia-Viewer.git
